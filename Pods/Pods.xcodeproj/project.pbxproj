@@ -19,13 +19,13 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		72CB6A73F27EDE50A2A15CE4D13643BB /* Pods-AppOptimize-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BA04DB51CCA953F760B85DD3A96BF1 /* Pods-AppOptimize-dummy.m */; };
-		A01383E25D487F5BF210858B7AC8B942 /* Pods-AppOptimize-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A79FB89DCB50839858B0FF2B3C864B4F /* Pods-AppOptimize-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D1720AB9C443FA0DA3123B9E19AE7563 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		697ED131C0DEF5C2ECEBAAA5980A800A /* Pods-AppOptimize-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A79FB89DCB50839858B0FF2B3C864B4F /* Pods-AppOptimize-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89C5572ADDA171138C0357ACCEDE9EB2 /* Pods-AppOptimize-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BA04DB51CCA953F760B85DD3A96BF1 /* Pods-AppOptimize-dummy.m */; };
+		CB95ABE97077E43D190FD883B4955BBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		97BA0E10F5B8B63AF72F059389FB3C87 /* PBXContainerItemProxy */ = {
+		810F807B97431E6562C6ACC305C07606 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07EE1B0A1DCD7DE1E850C2AB6C3D3285 /* Pods_AppOptimize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AppOptimize.framework; path = "Pods-AppOptimize.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07EE1B0A1DCD7DE1E850C2AB6C3D3285 /* Pods-AppOptimize */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AppOptimize"; path = Pods_AppOptimize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		139DEF235DAF6530878D02CDB3E4CF53 /* Pods-AppOptimize.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppOptimize.debug.xcconfig"; sourceTree = "<group>"; };
 		263C209B764EDC53F5BB1925FF99490E /* Pods-AppOptimize-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppOptimize-Info.plist"; sourceTree = "<group>"; };
 		3D83B4AD9964FABEEBE540D02DC0A320 /* Pods-AppOptimize.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppOptimize.release.xcconfig"; sourceTree = "<group>"; };
@@ -52,11 +52,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BE29C61B63E13D17FB1308203CA5402C /* Frameworks */ = {
+		C29D93637023EAE392BEBDBD6740B0D1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1720AB9C443FA0DA3123B9E19AE7563 /* Foundation.framework in Frameworks */,
+				CB95ABE97077E43D190FD883B4955BBE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,20 +79,20 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		83792FB7EFBE3343A8BF4922676F8136 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07EE1B0A1DCD7DE1E850C2AB6C3D3285 /* Pods-AppOptimize */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		A1D32791BB65A5BE81208112988C0E58 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				DA14F40B1AB5FD5ACC6C5B6CE1A0FD87 /* CrashReporter.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		AD804D5C2C55C3237AEF80BF51B3219D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				07EE1B0A1DCD7DE1E850C2AB6C3D3285 /* Pods_AppOptimize.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		B6AA816317622B9C2423D292E0CA2758 /* Pods */ = {
@@ -135,7 +135,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				B6AA816317622B9C2423D292E0CA2758 /* Pods */,
-				AD804D5C2C55C3237AEF80BF51B3219D /* Products */,
+				83792FB7EFBE3343A8BF4922676F8136 /* Products */,
 				54544E6050543DD6075E2E17490E686D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -161,11 +161,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		226162AA86CC977DFC83AB0CD8E1ABF3 /* Headers */ = {
+		75B752FF3BFFC668ABF6BC24429A73C1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A01383E25D487F5BF210858B7AC8B942 /* Pods-AppOptimize-umbrella.h in Headers */,
+				697ED131C0DEF5C2ECEBAAA5980A800A /* Pods-AppOptimize-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,21 +174,21 @@
 /* Begin PBXNativeTarget section */
 		6917853AD8358D48E1B2BD6172729BEA /* Pods-AppOptimize */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5FF1404E0B124058CD555211D4438D83 /* Build configuration list for PBXNativeTarget "Pods-AppOptimize" */;
+			buildConfigurationList = 26D69EEF867872022F9D99164FEA3CAB /* Build configuration list for PBXNativeTarget "Pods-AppOptimize" */;
 			buildPhases = (
-				226162AA86CC977DFC83AB0CD8E1ABF3 /* Headers */,
-				DC51A514ED24583FAA5AACA30730C4D1 /* Sources */,
-				BE29C61B63E13D17FB1308203CA5402C /* Frameworks */,
-				DAC14B0BA00430FADDA44D465CF9D498 /* Resources */,
+				75B752FF3BFFC668ABF6BC24429A73C1 /* Headers */,
+				8AB6CBDA078538434883AFA7FAA0A331 /* Sources */,
+				C29D93637023EAE392BEBDBD6740B0D1 /* Frameworks */,
+				162821BDA6A2E8EE6963CBCE703EF14C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9C3C07D85B27D99EBCB00A6FBFA2198D /* PBXTargetDependency */,
+				FC21400F2170BD901CE38CFE51A2020F /* PBXTargetDependency */,
 			);
 			name = "Pods-AppOptimize";
-			productName = "Pods-AppOptimize";
-			productReference = 07EE1B0A1DCD7DE1E850C2AB6C3D3285 /* Pods_AppOptimize.framework */;
+			productName = Pods_AppOptimize;
+			productReference = 07EE1B0A1DCD7DE1E850C2AB6C3D3285 /* Pods-AppOptimize */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -197,19 +197,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = AD804D5C2C55C3237AEF80BF51B3219D /* Products */;
+			productRefGroup = 83792FB7EFBE3343A8BF4922676F8136 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -220,7 +220,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DAC14B0BA00430FADDA44D465CF9D498 /* Resources */ = {
+		162821BDA6A2E8EE6963CBCE703EF14C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -230,64 +230,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DC51A514ED24583FAA5AACA30730C4D1 /* Sources */ = {
+		8AB6CBDA078538434883AFA7FAA0A331 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72CB6A73F27EDE50A2A15CE4D13643BB /* Pods-AppOptimize-dummy.m in Sources */,
+				89C5572ADDA171138C0357ACCEDE9EB2 /* Pods-AppOptimize-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9C3C07D85B27D99EBCB00A6FBFA2198D /* PBXTargetDependency */ = {
+		FC21400F2170BD901CE38CFE51A2020F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PLCrashReporter;
 			target = 8D53C58097CCE41070956936598B94B4 /* PLCrashReporter */;
-			targetProxy = 97BA0E10F5B8B63AF72F059389FB3C87 /* PBXContainerItemProxy */;
+			targetProxy = 810F807B97431E6562C6ACC305C07606 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		643B9C8ADEC61ADE2787C73B460EB146 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D83B4AD9964FABEEBE540D02DC0A320 /* Pods-AppOptimize.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AppOptimize/Pods-AppOptimize-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AppOptimize/Pods-AppOptimize.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -449,7 +411,45 @@
 			};
 			name = Debug;
 		};
-		EAB37C892C969C662A3E6903A8835008 /* Debug */ = {
+		E46148A3A41B1DE8255DECBDF88749D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D83B4AD9964FABEEBE540D02DC0A320 /* Pods-AppOptimize.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AppOptimize/Pods-AppOptimize-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AppOptimize/Pods-AppOptimize.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FEE5A2EBCE1CD6231484BA07865C4B12 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 139DEF235DAF6530878D02CDB3E4CF53 /* Pods-AppOptimize.debug.xcconfig */;
 			buildSettings = {
@@ -489,20 +489,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		26D69EEF867872022F9D99164FEA3CAB /* Build configuration list for PBXNativeTarget "Pods-AppOptimize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE5A2EBCE1CD6231484BA07865C4B12 /* Debug */,
+				E46148A3A41B1DE8255DECBDF88749D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
 				7EE7A78859F657F6BEFC651185B43192 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5FF1404E0B124058CD555211D4438D83 /* Build configuration list for PBXNativeTarget "Pods-AppOptimize" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EAB37C892C969C662A3E6903A8835008 /* Debug */,
-				643B9C8ADEC61ADE2787C73B460EB146 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0F735327AA5E4D865B1B2E78 /* Pods_AppOptimize.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC224E4DF0118FB4E86AF205 /* Pods_AppOptimize.framework */; };
+		6F57F59027479253005D7FEA /* NSObject+UnrecognizedSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F57F58F27479253005D7FEA /* NSObject+UnrecognizedSelector.m */; };
+		6F57F59627479452005D7FEA /* UnrecognizedSelectorForbidProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F57F59527479452005D7FEA /* UnrecognizedSelectorForbidProxy.m */; };
 		749587D726451FC400D7662B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 749587D626451FC400D7662B /* AppDelegate.m */; };
 		749587DD26451FC400D7662B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 749587DC26451FC400D7662B /* ViewController.m */; };
 		749587E226451FC600D7662B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 749587E126451FC600D7662B /* Assets.xcassets */; };
@@ -52,6 +54,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F57F58E27479253005D7FEA /* NSObject+UnrecognizedSelector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+UnrecognizedSelector.h"; sourceTree = "<group>"; };
+		6F57F58F27479253005D7FEA /* NSObject+UnrecognizedSelector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+UnrecognizedSelector.m"; sourceTree = "<group>"; };
+		6F57F59427479452005D7FEA /* UnrecognizedSelectorForbidProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnrecognizedSelectorForbidProxy.h; sourceTree = "<group>"; };
+		6F57F59527479452005D7FEA /* UnrecognizedSelectorForbidProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnrecognizedSelectorForbidProxy.m; sourceTree = "<group>"; };
 		749587D226451FC400D7662B /* AppOptimize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppOptimize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		749587D526451FC400D7662B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		749587D626451FC400D7662B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -140,6 +146,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6F57F58D27479231005D7FEA /* UnrecognizedSelector */ = {
+			isa = PBXGroup;
+			children = (
+				6F57F58E27479253005D7FEA /* NSObject+UnrecognizedSelector.h */,
+				6F57F58F27479253005D7FEA /* NSObject+UnrecognizedSelector.m */,
+				6F57F59427479452005D7FEA /* UnrecognizedSelectorForbidProxy.h */,
+				6F57F59527479452005D7FEA /* UnrecognizedSelectorForbidProxy.m */,
+			);
+			path = UnrecognizedSelector;
+			sourceTree = "<group>";
+		};
 		749587C926451FC400D7662B = {
 			isa = PBXGroup;
 			children = (
@@ -217,6 +234,7 @@
 		74FE1DBD264D036700C22B9B /* SomeAvoidCrash */ = {
 			isa = PBXGroup;
 			children = (
+				6F57F58D27479231005D7FEA /* UnrecognizedSelector */,
 				74FE1DCB264D038800C22B9B /* NSArray+Safe.h */,
 				74FE1DC3264D038800C22B9B /* NSArray+Safe.m */,
 				74FE1DC1264D038800C22B9B /* NSAttributedString+Safe.h */,
@@ -400,6 +418,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F57F59627479452005D7FEA /* UnrecognizedSelectorForbidProxy.m in Sources */,
+				6F57F59027479253005D7FEA /* NSObject+UnrecognizedSelector.m in Sources */,
 				74A2AD1C264681DF00ABC96C /* CPUViewController.m in Sources */,
 				749587DD26451FC400D7662B /* ViewController.m in Sources */,
 				749588442645387F00D7662B /* UncaughtExceptionHandler.m in Sources */,
